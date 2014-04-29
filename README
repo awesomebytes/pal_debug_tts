@@ -1,0 +1,25 @@
+=====================================================================
+
+      *** EXPERIMENTAL ***
+
+This is some quick code for internal use for debugging / testing REEM.
+
+Do NOT depend on it from other places. It WILL change.
+
+If you use this code or are interested in something similar to it, please
+come talk to me, as I have some ideas for making a proper tool out of all this.
+
+  -- Siegfried
+
+=====================================================================
+
+Utilities:
+
+ * pal_speak:
+       command-line tool that speaks out a single sentence.
+ * pal_debug_tts:
+       "tail -f" like utility that reads messages written to a file and
+       speaks them out. Multiple regexes can be provided to choose which
+       messages should be spoken.
+ * pal_topic_tts:
+       speaks out when the value of a topic changes.
